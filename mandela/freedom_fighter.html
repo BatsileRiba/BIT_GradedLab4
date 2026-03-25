@@ -1,0 +1,62 @@
+<head>
+  <script src="freedom_fighter.js" defer></script>
+
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#pics img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#favorites {
+  min-height: 120px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#favorites img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#actions {
+  margin-top: 10px;
+  font-size: 13px;
+
+  
+}
+  </style>
+</head>
+
+<body>
+  
+
+<h1>
+  <img class="mandela" src="mandela4.webp" alt="Mandela" width="100" height="100"/> Freedom Fighter Pics!
+</h1>
+<p id="counter">Remaining images: 6</p>
+<div id="pics">
+  <img class="mandela" src="mandela1.jpg" alt="Mandela" title="Mandela as a young man" />
+  <img class="mandela" src="mandela2.jpg" alt="Mandela" title="Mandela in traditional attire" />
+  <img class="mandela" src="mandela3.jpg" alt="Mandela" title="Mandela smiling" />
+  <img class="mandela" src="mandela4.jpg" alt="Mandela" title="Mandela reading" />
+  <img class="mandela" src="mandela5.jpg" alt="Mandela" title="Mandela at a podium" />
+  <img class="mandela" src="mandela6.jpg" alt="Mandela" title="Mandela in a suit" />
+</div>
+<p>Click a picture to move it to the favorites. </p>
+<fieldset id="favorites" class="mandela">
+  <legend>Favorite photos:</legend>
+</fieldset>
+<ul id="actions"></ul>
+
+</body>
